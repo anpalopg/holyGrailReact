@@ -1,12 +1,31 @@
 import "./Header.css";
-export default function Header() {
+
+type MenuItem = { label: string; href: string };
+
+interface HeaderProps {
+  logo: string;
+  menuItems: MenuItem[];
+  userIcon: string;
+}
+
+export default function Header({ logo, menuItems, userIcon }: HeaderProps) {
   return (
-    <>
-      <h2>Jhon</h2>
-      <p>
-        YO SOY EL MEJOR, yo soy el mas experimentado, yo hare la parte de la
-        navegacion y el ajax
-      </p>
-    </>
+    <div className="header">
+      <div className="logo">
+        <img src={logo} alt="Logo" />
+      </div>
+      <div className="navbar">
+        <ul>
+          {menuItems.map((item) => (
+            <li key={item.href}>
+              <a href={item.href}>{item.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="logo user">
+        <img src={userIcon} alt="User" />
+      </div>
+    </div>
   );
 }
