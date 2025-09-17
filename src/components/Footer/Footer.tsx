@@ -1,9 +1,16 @@
 import "./Footer.css";
+
 export default function Footer() {
   return (
-    <>
-      <h2>Marlly</h2>
-      <p>YO SOY EL FOOTER, DEBEN AHCER: Informacion del copyrigth</p>
-    </>
+    <footer className="footer">
+      <div className="footer-container">
+        <h4 className="footer-title">Creado por grupo #</h4>
+      </div>
+
+      <div className="footer-bottom">
+        <p>© {new Date().getFullYear()} Proyecto educativo. Todos los derechos reservados.</p>
+        <p>Dirección, Bogotá, Colombia</p>
+      </div>
+    </footer>
   );
 }
