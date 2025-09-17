@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.menu {
+  width: 20%; 
+  background-color: rgb(105, 45, 127);
+  color: rgb(234, 177, 177);
+  text-align: center;
+  padding: 20px;
+}
+
+.MainContent {
+  display: flex; 
+  padding: 20px;
+}
+
+.aside {
+  width: 20rem; 
+  background-color: rgb(57, 165, 208);
+  padding: 10px;
+}
+
+.article {
+  width: 200rem;
+  background-color: #f189d5;
+  padding: 15px; 
+}
