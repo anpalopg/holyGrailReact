@@ -27,3 +27,32 @@
   background-color: #f189d5;
   padding: 15px; 
 }
+
+
+.Migasdepan {
+  display: flex;
+  justify-content: left;
+  background-color: rgb(234, 177, 177);
+  padding: 10px;
+}
+
+
+.tarjeta {
+  background-color: #767676;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 50rem;
+  margin: 20px auto;
+
+}
+
+
+.button {
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  
+
+
+}
