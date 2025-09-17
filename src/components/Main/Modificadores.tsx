@@ -2,7 +2,7 @@ import "./Main.css";
 import Main from "./Main";
 
 
-export default function Modificador () {
+export default function Modificador2() {
 
     const varaside= "Este es el lado derecho";    
     const vararticle="Este es el contenido principal";
