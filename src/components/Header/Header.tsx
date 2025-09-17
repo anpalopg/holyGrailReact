@@ -11,9 +11,12 @@ interface HeaderProps {
 export default function Header({ logo, menuItems, userIcon }: HeaderProps) {
   return (
     <div className="header">
-      <div className="logo">
+      <div className="logo_container">
+        <div className="logo">
         <img src={logo} alt="Logo" />
+        </div>
       </div>
+      
       <div className="navbar">
         <ul>
           {menuItems.map((item) => (
